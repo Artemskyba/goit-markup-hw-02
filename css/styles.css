@@ -1,14 +1,28 @@
 body {
     font-family: 'Roboto', sans-serif;
-color: #434455;
+color: #2E2F42;
+font-weight: 500;
+}
+
+.logo {
+    color: #2E2F42;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.web {
+color: #4D5AE5;
 }
 
 .headlink {
     color: #2E2F42;
     text-decoration: none;
-    font-weight: 500;
     font-size: 16px;
-    line-height:150%;
+    line-height: 1,5;
     letter-spacing: 0.02em;
 }
 
@@ -17,6 +31,87 @@ color: #434455;
     text-decoration: underline;
 }
 
-.nav-list {
+.list {
     list-style-type: none;
+}
+
+.address-link {
+    color: #2E2F42;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+}
+
+.address-link:active {
+    color: #404BBF;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.solutions {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.order-button {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.order-button:active {
+    background-color:#404BBF;
+}
+
+.order-button:hover {
+    font-weight: 600;
+    line-height: 1.18;
+    background-color: #4D5AE5;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.lists-headline {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.lists-text {
+    font-weight: 400;
+    font-style:normal;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-headline {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize
+}
+.team-text {
+    text-align: center;
+}
+.team .list [class] {
+    text-align: center;
 }
