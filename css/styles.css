@@ -1,11 +1,21 @@
 body {
     font-family: 'Roboto', sans-serif;
-color: #2E2F42;
+    color: var(--body-color);
 font-weight: 500;
 }
 
 .logo {
-    color: #2E2F42;
+    color:inherit;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.logo-foot {
+    color: #F4F4FD;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -19,16 +29,17 @@ color: #4D5AE5;
 }
 
 .headlink {
-    color: #2E2F42;
+    color: inherit;
     text-decoration: none;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.headlink:active {
-    color:#404BBF;
-    text-decoration: underline;
+.headlink:active, 
+.headlink:hover, 
+.headlink:focus {
+    color: var(--linkaction-color);
 }
 
 .list {
@@ -36,20 +47,30 @@ color: #4D5AE5;
 }
 
 .address-link {
-    color: #2E2F42;
-        text-decoration: none;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1,5;
-        letter-spacing: 0.02em;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.address-link:active {
-    color: #404BBF;
+.address-link:active,
+.address-link:hover, 
+.address-link:focus {
+    color: var(--linkaction-color);
 }
 
-.hero {
-    background-color: #2E2F42;
+:root {
+    --body-color: #2E2F42; 
+    --bg-color: #2E2F42;
+    --linkaction-color: #404BBF;
+}
+
+.hero, 
+.foot {
+    background-color: var(--bg-color);
+    color: #FFFFFF;
 }
 
 .solutions {
@@ -62,8 +83,8 @@ color: #4D5AE5;
 }
 
 .order-button {
-    font-family: 'Roboto';
-    font-weight: 500;
+    font-family:inherit;
+    font-weight: inherit;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -74,16 +95,14 @@ color: #4D5AE5;
 }
 
 .order-button:active {
-    background-color:#404BBF;
+    background-color:var(--linkaction-color);
 }
 
-.order-button:hover {
+.order-button:hover,
+.order-button:focus {
     font-weight: 600;
     line-height: 1.18;
     background-color: #4D5AE5;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .lists-headline {
@@ -109,9 +128,50 @@ color: #4D5AE5;
     text-align: center;
     text-transform: capitalize
 }
-.team-text {
+
+.teammate-name,
+.teammate-position {
     text-align: center;
 }
-.team .list [class] {
-    text-align: center;
+
+.filtre-button {
+    background-color: #F4F4FD;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+.filtre-button:active,
+.filtre-button:hover,
+.filtre-button:focus {
+    background-color: var(--linkaction-color);
+    color: #FFFFFF;;
+}
+
+.all-button {
+    width: 69px;
+    height: 48px;
+}
+
+.website-button {
+    width: 116px;
+    height: 48px;
+}
+
+.app-button {
+    width: 78px;
+    height: 48pt;
+}
+
+.design-button {
+    width: 101px;
+    height: 48px;
+}
+
+.marketing-button {
+    width: 126px;
+    height: 48px;
 }
