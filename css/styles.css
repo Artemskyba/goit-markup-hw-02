@@ -36,7 +36,7 @@ font-weight: 500;
 }
 
 .headlink {
-    color: inherit;
+    color: var(--bg-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -167,29 +167,4 @@ background-color: #FFFFFF;
 .filtre-button:focus {
     background-color: var(--linkaction-color);
     color: #FFFFFF;;
-}
-
-.all-button {
-    width: 69px;
-    height: 48px;
-}
-
-.website-button {
-    width: 116px;
-    height: 48px;
-}
-
-.app-button {
-    width: 78px;
-    height: 48pt;
-}
-
-.design-button {
-    width: 101px;
-    height: 48px;
-}
-
-.marketing-button {
-    width: 126px;
-    height: 48px;
 }
