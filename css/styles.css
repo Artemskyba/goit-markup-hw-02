@@ -4,6 +4,16 @@ body {
     background-color: var(--body-bg-color);
 font-weight: 500;
 }
+
+:root {
+    --body-bg-color: #FFFFFF;
+    --bg-color: #2E2F42;
+    --linkaction-color: #404BBF;
+    --web-color: #4d5ae5;
+    --adress-link-color: #434455;
+    --bg-filtre-button: #F4F4FD;
+}
+
 .link {
     text-decoration: none;
 }
@@ -71,15 +81,6 @@ font-style: normal;
     color: var(--linkaction-color);
 }
 
-:root {
-    --body-bg-color: #FFFFFF;
-    --bg-color: #2E2F42;
-    --linkaction-color: #404BBF;
-    --web-color: #4d5ae5;
-    --adress-link-color: #434455;
-    --bg-filtre-button: #F4F4FD;
-}
-
 .hero, 
 .foot {
     background-color: var(--bg-color);
@@ -125,7 +126,7 @@ font-style: normal;
 .lists-text {
     font-weight: 400;
     font-style:normal;
-    color: var(--adress-link-color);
+    color: var(--bg-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -139,6 +140,7 @@ font-style: normal;
     text-align: center;
     text-transform: capitalize
 }
+
 .team {
     background-color:#F4F4FD;
 }
