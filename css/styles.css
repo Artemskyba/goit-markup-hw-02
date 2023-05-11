@@ -1,12 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--body-color);
+    color: #2E2F42;
+    background-color: var(--body-bg-color);
 font-weight: 500;
 }
 
 .logo {
     color:inherit;
     text-decoration: none;
+    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -17,6 +19,7 @@ font-weight: 500;
 .logo-foot {
     color: #F4F4FD;
     text-decoration: none;
+    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -62,7 +65,7 @@ color: #4D5AE5;
 }
 
 :root {
-    --body-color: #2E2F42; 
+    --body-bg-color: #FFFFFF;
     --bg-color: #2E2F42;
     --linkaction-color: #404BBF;
 }
