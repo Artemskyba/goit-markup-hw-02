@@ -124,8 +124,6 @@ font-style: normal;
 }
 
 .lists-text {
-    font-weight: 400;
-    font-style:normal;
     color: var(--adress-link-color);
     font-size: 16px;
     line-height: 1.5;
